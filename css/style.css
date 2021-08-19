@@ -1,0 +1,400 @@
+.navbar
+{
+align-items: center;
+justify-content: space-between;
+}
+@media (max-width: 400px) {
+.navbar
+{
+align-items: center;
+justify-content: center;
+}
+.navbar button
+{
+    margin: 20px 0;
+}
+}
+.btn {
+    background: #01C5C4;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 10px 40px;
+    outline: none;
+}
+.mar
+{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.btxt {
+    margin-top: 120px;
+}
+
+.btxt h1,.rbgtxt h1 {
+    max-width: 925px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+}
+
+.btxt p,.rbgtxt p {
+    max-width: 925px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 30px 0;
+    color: #656565;
+}
+
+.bimg {
+    text-align: end;
+}
+
+.rbg
+{
+    max-width: 100%;
+background: url(images/roundbg.png) no-repeat;
+height: auto;
+background-position-x: center;
+background-size: cover;
+padding-top: 200px;
+}
+.rbgtxt h1
+{
+    max-width: 925px;
+    text-align: center;
+    margin: auto;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.rbgtxt p
+{
+    max-width: 925px;
+    text-align: center;
+    margin: 20px auto;
+    padding-left:15px;
+    padding-right: 15px;  
+}
+.ftxt
+{
+    padding-top: 50px;
+}
+.ftxt h1
+{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+}
+.ftxt p
+{
+font-size: 18px;
+line-height: 32px;
+
+}
+ .f1
+{
+    text-align: end;
+}
+.f2
+{
+    text-align: end;
+}
+.f3
+{
+    text-align: end;
+} */
+.container-lg
+{
+    max-width: 1500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+}
+.fram-1
+{
+    position: relative;
+    z-index: 2;
+    left: -120px;
+}
+.fram-2
+{
+    position: relative;
+    margin-top: -300px;
+    /* left: -100px; */
+    z-index: 1;
+}
+.fram-3
+{
+    position: relative;
+    margin-top: -300px; 
+    left: 100px;
+}
+
+.rbg-2
+{
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    padding-top: 80px;
+    background: linear-gradient(180deg, rgba(184, 222, 111, 0.23) 0%, rgba(184, 222, 111, 0) 100%);
+    border-radius: 50px;
+}
+.useful
+{
+    margin-top: 180px;
+}
+.useful h2
+{
+text-align: center;
+padding-bottom: 80px;
+}
+.scard
+{
+text-align: center;
+}
+.scard img
+{
+    margin-bottom: 20px;
+}
+.scard h5
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+.scard p
+{
+    font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+
+.cheaper
+{
+    max-width: 100%;
+    margin: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 65px 15px;
+    background: rgba(1, 197, 196, 0.11);
+    border-radius: 50px;
+    text-align: center;
+}
+.cheaper h2
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.pcard
+{
+max-width: 359px;
+background: #000000;
+border-radius: 30px;
+color: #ffff;
+padding: 50px 0;
+margin: 30px auto;
+}
+.pcard h1
+{
+font-size: 72px;
+line-height: 96px;
+text-align: center;
+}
+.pcard p
+{
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #C4C4C4;
+}
+footer
+{
+    text-align: center;
+}
+footer h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 85px;
+    /* margin-bottom: 24px; */
+}
+footer p
+{
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+    margin: 24px 0;
+}
+footer button
+{
+    margin: 50px 0;
+}
+/* media */
+@media (max-width: 479px) {
+    .cheaper
+    {
+        margin-left:0px;
+        margin-right:0px; 
+    }
+    .cheaper h2
+    {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .btxt h1,.rbgtxt h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .rbg
+    {
+        background-size: auto;
+    }
+    .f1,.f2,.f3
+    {
+        text-align: center;
+    }
+    .bimg {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .fram-1,.fram-2,.fram-3
+    {
+        position: unset;
+        margin-top: unset;
+        left: unset;
+        justify-content: center !important;
+        padding: 20px 0;
+    }
+    .f1 img,.f2 img,.f3 img
+    {
+        max-width: 300px;
+    }
+    .rbg-2
+    {
+        margin-left:0px;
+        margin-right:0px;
+    }
+    footer h1 {
+        font-size: 34px;
+        display: unset;
+        line-height: 43px;
+    }
+    footer h1 span
+    {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btxt h1,.rbgtxt h1 {
+        font-size: 44px;
+        line-height: 66px;
+    }
+
+    .bimg {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .rbg
+    {
+        background-size: unset;
+    }
+    .f1,.f2,.f3
+    {
+        text-align: center;
+    }
+    .fram-1,.fram-2,.fram-3
+    {
+        position: unset;
+        margin-top: unset;
+        left: unset;
+        justify-content: center !important;
+        padding: 20px 0;
+    }
+    .f1 img,.f2 img,.f3 img
+    {
+        max-width: 300px;
+    }
+    .rbg-2
+    {
+        margin-left:0px;
+        margin-right:0px;
+    }
+    footer h1 {
+        font-size: 34px;
+        display: unset;
+    }
+    footer h1 span
+    {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btxt h1,.rbgtxt h1 {
+        font-size: 44px;
+        line-height: 66px;
+    }
+    .f1,.f2,.f3
+    {
+        text-align: unset;
+    }
+    .fram-1,.fram-2,.fram-3
+    {
+        position: unset;
+        margin-top: unset;
+        left: unset;
+        justify-content: center !important;
+        padding: 20px 0;
+    }
+    .f1 img,.f2 img,.f3 img
+    {
+        max-width: 300px;
+    }
+    footer h1 {
+        font-size: 34px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .btxt h1,.rbgtxt h1 {
+        font-size: 44px;
+        line-height: 66px;
+    }
+    .f1,.f2,.f3
+    {
+        text-align: unset;
+    }
+    .fram-1,.fram-2,.fram-3
+    {
+        position: unset;
+        margin-top: unset;
+        left: unset;
+        justify-content: center !important;
+        padding: 20px 0;
+    }
+    .f1 img,.f2 img,.f3 img
+    {
+        max-width: 300px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+        .f1 img,.f2 img,.f3 img
+        {
+            max-width: 300px;
+        }
+    .fram-2 { position: relative; margin-top: -241px; left: -50px; z-index: 1; }
+    .fram-3 {
+        position: relative;
+        margin-top: -300px;
+        left: 0px;
+    }
+}
+
+/* media */
